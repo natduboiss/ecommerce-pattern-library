@@ -6,8 +6,8 @@
   --color-neutral-beige: #EFE3CB;
   --color-whatever: #A39886;
 
-  --font-primary: "Cabin", "Trebuchet MS", Arial, sans-serif;
-  --font-secondary: "Playfair Display", Menlo, Consolas, monospace;
+  --font-primary: "Cabin", sans-serif;
+  --font-secondary: "Playfair Display", serif;
 }
 
 html {
