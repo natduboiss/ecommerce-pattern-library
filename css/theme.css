@@ -4,12 +4,16 @@
   --color-secondary: #666;
   --color-accent: #D3C6AB;
   --color-neutral-beige: #EFE3CB;
-  --color-whatever: #A39886;
+  --color-neutral-dark: #A39886;
 
-  --font-primary: "Cabin", sans-serif;
-  --font-secondary: "Playfair Display", serif;
+  --font-primary: "Playfair Display", serif;
+  --font-secondary: "Cabin", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #616553;
 }

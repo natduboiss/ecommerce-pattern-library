@@ -1,5 +1,18 @@
 permalink: pretty
 theme: jekyll_patternbot
+patternbot:
+  title: "Pretty Little Gardens"
+  description: |
+    A small gardening business, with a good variation of small plants to large deluxe gardens for anyone's home.
 
 patternbot:
   font_url: "http://fonts.googleapis.com/css?family=Cabin:400,400i,700|Playfair+Display:400,700"
+  rationales:
+    typefaces.primary:  |
+      Playfair is the primary typeface that i selected because i wanted to have a unique and clean serif type for my primary typeface. Playfair will be used for all the body copy.
+    colors.primary: |
+      The primary colours that i picked represents the greenery that the site wants to sell.
+    typefaces.secondary: |
+      Cabin is the secondary typeface that i chose because i wanted a classic and clean sans-serif font for all the headings, buttons, banners, etc.
+    colors.secondary:  |
+      The secondary colour is neutral black because this will highlight the text to make it stand out on the greens.
