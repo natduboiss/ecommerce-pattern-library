@@ -2,6 +2,7 @@
   background-color: var(--color-neutral-dark);
   border-color: var(--color-neutral-beige);
   color: var(--color-secondary-light);
+  text-align: center;
 }
 
 .btn:hover {
@@ -11,11 +12,11 @@
 
 .btn-ghost {
   background-color: transparent;
-  color: var(--color-primary);
+  color: var(--color-secondary-light);
 }
 
 .btn-ghost:hover {
-  color: var(--color-primary-light);
+  color: var(--color-secondary-light);
 }
 
 .btn-light {

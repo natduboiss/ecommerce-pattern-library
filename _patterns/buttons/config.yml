@@ -1,0 +1,15 @@
+title: "Buttons"
+description: |
+  Buttons should be used when an obvious action is required. Don't ever use the buttons, just to make it easier for the user to know the call-to-action on the screen.
+
+patterns:
+  basic:
+    title: "Basic"
+    description: |
+      This is the basic button that should be used. Only use in front of a light background.
+    width: "12em"
+  ghost:
+    title: "Ghost"
+    description: |
+      the ghost button is only to be placed when on top of a banner. So we can showcase the image through the button.
+    background: "--color-secondary"
