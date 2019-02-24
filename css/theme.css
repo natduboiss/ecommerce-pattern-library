@@ -47,6 +47,38 @@ select {
   border-color: var(--color-accent);
 }
 
+#name {
+  width: 40%;
+}
+
+#email {
+  width: 40%;
+}
+
+#address {
+  width: 40%;
+}
+
+#city {
+  width: 40%;
+}
+
+#tel {
+  width: 40%;
+}
+
+#postal {
+  width: 40%;
+}
+
+#date {
+  width: 40%;
+}
+
+select {
+  width: 40%;
+}
+
 .error-message {
   display: block;
   background-color: #fee;
@@ -55,14 +87,16 @@ select {
 }
 
 .product-card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
   transition: 0.3s;
   border-radius: 5px;
   width: 30%;
+  display: inline-block;
+  margin-right: 1em;
 }
 
 .product-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
 .product-container {
@@ -73,6 +107,102 @@ img {
   border-radius: 5px 5px 0 0;
 }
 
-.btn {
-  text-align: center;
+.top-banner {
+  position: relative;
+}
+
+.top-banner-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+  position: absolute;
+  background-color: var(--color-secondary-light);
+  width: 26%;
+  top: 60px;
+  left: 40px;
+}
+
+.top-banner-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.sectional-banner {
+  position: relative;
+}
+
+.sectional-banner-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+  position: absolute;
+  background-color: var(--color-secondary-light);
+  width: 40%;
+  top: 20px;
+  left: 300px;
+}
+
+.cta-banner {
+  position: relative;
+}
+
+.cta-banner-container {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+  position: absolute;
+  background-color: var(--color-secondary-light);
+  width: 26%;
+  top: 60px;
+  left: 40px;
+}
+
+.cta-banner-container:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.basic-card {
+  background-color: var(--color-accent);
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+}
+
+.basic-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  width: 30%;
+  display: inline-block;
+  margin-right: 1em;
+}
+
+.image-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.image-container {
+  background-color: var(--color-accent);
+  padding: 2px 16px;
+}
+
+.nav-wrapper {
+  background-color: var(--color-primary-light);
+  padding: 1em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+}
+
+.breadcrumb {
+  text-decoration: none;
+  margin-right: 1em;
+  margin-left: 0;
+  color: var(--color-secondary-light);
 }

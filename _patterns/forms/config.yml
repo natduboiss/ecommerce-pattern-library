@@ -1,0 +1,17 @@
+title: "Forms"
+description: |
+  Forms should be used when purchasing an item and information is required for the purchase.
+
+patterns:
+  field-help:
+    title: "Field Help"
+    description: |
+      This field should to all the required fields. If a required field is missed an alert will appear.
+  input:
+    title: "Input"
+    description: |
+      These fields are all the information needed to be filled up for a purchase.
+  select:
+    title: "Select"
+    description: |
+      Only use this field for items that can have options for the user to easily select.

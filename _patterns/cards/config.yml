@@ -1,0 +1,25 @@
+patterns:
+  basic-card:
+    title: "Basic Card"
+    description: |
+      This is the basic card that should be used only if no image is needed to be attached with the card.
+  call-to-action-banner:
+    title: "Call to Action Banner"
+    description: |
+      This banner should be used as a sectional banner, but only if you need to direct the user to another page you would use this banner.
+  image-card:
+    title: "Image Card"
+    description: |
+      This type of card is to be used to showcase products and direct the users to the shop page.
+  product-card:
+    title: "Product Card"
+    description: |
+      This card is to be used on the products page.
+  sectional-banner:
+    title: "Sectional Banner"
+    description: |
+      This is another kind of sectional banner, however this should only be used if you don't need to direct a user to another page.
+  top-page-banner:
+    title: "Top Page Banner"
+    description: |
+      This banner is to be used only at the top of the page. This can be where you have promotions.

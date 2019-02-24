@@ -6,7 +6,7 @@ patterns:
   basic:
     title: "Basic"
     description: |
-      This is the basic button that should be used. Only use in front of a light background.
+      This is the basic button that should be used only use in front of a light background.
     width: "12em"
   ghost:
     title: "Ghost"
