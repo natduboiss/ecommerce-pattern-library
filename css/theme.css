@@ -240,3 +240,75 @@ img {
   margin-left: 160px;
   padding: 0px 10px;
 }
+
+.box1 {
+  position: relative;
+}
+
+.navlink1 {
+  position: absolute;
+  color: var(--color-secondary-light);
+  left: 2.75em;
+  top: 2em;
+}
+
+.box2 {
+  position: relative;
+}
+
+.navlink2 {
+  position: absolute;
+  color: var(--color-secondary-light);
+  left: 2.75em;
+  top: 2em;
+}
+
+.box3 {
+  position: relative;
+}
+
+.navlink3 {
+  position: absolute;
+  color: var(--color-secondary-light);
+  left: 2.75em;
+  top: 2em;
+}
+
+.box4 {
+  position: relative;
+}
+
+.navlink4 {
+  position: absolute;
+  color: var(--color-secondary-light);
+  left: 2.75em;
+  top: 2em;
+}
+
+.img-flex {
+  border-radius: 0;
+}
+
+.hover-box {
+  color: var(--color-secondary-light);
+}
+
+.hover-box-caption {
+  left: -4.75em;
+  bottom: 6em;
+  color: var(--color-secondary-light);
+  transition: all .2s linear;
+}
+
+.hover-box-img {
+  filter: grayscale(100%);
+  transition: all .2s linear;
+}
+
+.hover-box:hover .hover-box-img:hover {
+  filter: grayscale(0);
+}
+
+.textlink {
+  color: var(--color-secondary-light);
+}
