@@ -6,6 +6,9 @@ patternbot:
     A small gardening business, with a good variation of small plants to large deluxe gardens for anyone's home.
 
 patternbot:
+  layouts:
+    default: |
+      The default layout should be used for almost every page, it includes the website's primary header and footer.
   font_url: "http://fonts.googleapis.com/css?family=Cabin:400,400i,700|Playfair+Display:400,700"
   colors:
     background: "--color-secondary-light"

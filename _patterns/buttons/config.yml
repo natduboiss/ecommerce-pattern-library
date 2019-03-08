@@ -4,6 +4,13 @@ description: |
 
 patterns:
   basic:
+    fields:
+      - name: text
+        type: string
+        example: "See collection!"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Basic"
     description: |
       This is the basic button that should be used only use in front of a light background.

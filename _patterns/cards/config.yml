@@ -4,6 +4,16 @@ patterns:
     description: |
       This is the basic card that should be used only if no image is needed to be attached with the card.
   call-to-action-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Explore our gardens!"
+      - name: text
+        type: string
+        example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
+      - name: image
+        type: string
+        example: cta-banner.svg
     title: "Call to Action Banner"
     description: |
       This banner should be used as a sectional banner, but only if you need to direct the user to another page you would use this banner.
