@@ -1,101 +1,13 @@
 <section>
-  <h1 class="text-center pad-t-1-2">Original Gardens</h1>
-  <p class="text-center">Single boxed plants. From succulents to cacti's to decor any home with a simple unique package.</p>
-  <div class="grid text-center product-container">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/smallgarden3.jpg" alt="original Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-        <h2 class="giga push-0 not-bold">Succulent Bliss</h2>
-          <p class="kilo push-0">20$</p>
-        </div>
-      </a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/smallgarden4.jpg" alt="Premium Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-          <h2 class="giga push-0 not-bold">Zebra Succulent</h2>
-          <p class="kilo push-0">20$</p>
-        </div>
-      </a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/smallgarden1.jpg" alt="Premium Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-          <h2 class="giga push-0 not-bold">Cacti</h2>
-          <p class="kilo push-0">25$</p>
-        </div>
-      </a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/smallgarden2.jpg" alt="Premium Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-          <h2 class="giga push-0 not-bold">Double Garden</h2>
-          <p class="kilo push-0">45$</p>
-        </div>
-      </a>
-    </div>
-  </div>
-
-  <h1 class="text-center pad-t-1-2">Premium Gardens</h1>
-  <div class="grid text-center product-container">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/originalgarden1.jpg" alt="original Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-        <h2 class="giga push-0 not-bold">Mixed Garden</h2>
-          <p class="kilo push-0">50$</p>
-        </div>
-      </a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/originalgarden2.jpg" alt="Premium Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-          <h2 class="giga push-0 not-bold">Zebra Garden</h2>
-          <p class="kilo push-0">50$</p>
-        </div>
-      </a>
-    </div>
-  </div>
-  <h1 class="text-center pad-t-1-2">Deluxe Gardens</h1>
-  <div class="grid text-center product-container">
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/deluxegarden1.jpg" alt="original Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-        <h2 class="giga push-0 not-bold">Clustered Garden</h2>
-          <p class="kilo push-0">100$</p>
-        </div>
-      </a>
-    </div>
-    <div class="unit xs-1 s-1 m-1-2 l-1-2">
-      <a class="hover-box block relative crop" href="#">
-        <div class="embed embed-3by2">
-          <img class="hover-box-img embed-item" src="/images/products/deluxegarden2.jpg" alt="original Garden">
-        </div>
-        <div class="hover-box-caption island-1-4 w-1 absolute">
-        <h2 class="giga push-0 not-bold">Lushess Garden</h2>
-          <p class="kilo push-0">100$</p>
-        </div>
-      </a>
-    </div>
+  <div class="text-center product-container">
+    <a class="hover-box block relative crop" href="{{include.data.url}}">
+      <div class="embed embed-3by2">
+        <img class="hover-box-img embed-item" src="{{include.data.image}}" alt="original Garden">
+      </div>
+      <div class="hover-box-caption island-1-4 w-1 absolute">
+        <h2 class="giga push-0 not-bold">{{include.data.name}}</h2>
+        <p class="kilo push-0">${{include.data.price}}</p>
+      </div>
+    </a>
   </div>
 </section>

@@ -4,3 +4,11 @@ highlight_nav: shop
 ---
 
 {% pattern cards/call-to-action-banner heading="Learn more about us!" text="If you want to know more about us and about our plants come learn what we're all about." image="top-banner.svg" %}
+
+<div class="grid grid-middle gutter-1-4">
+  {% for product in site.products %}
+  <div class="unit xs-1 s-1 m-1-2 island-1-4">
+    {% pattern cards/product-card data=product %}
+  </div>
+  {% endfor %}
+</div>

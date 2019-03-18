@@ -25,6 +25,12 @@ patterns:
     title: "Product Card"
     description: |
       This card is to be used on the products page.
+    fields:
+      - name: data
+        type: object
+        data:
+          source: "site.products[0]"
+          type: Product
   sectional-banner:
     title: "Sectional Banner"
     description: |
