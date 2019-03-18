@@ -1,7 +1,7 @@
 :root {
   --color-primary: #616553;
   --color-primary-light: #A8AD97;
-  --color-secondary: #666;
+  --color-secondary: #000;
   --color-secondary-light: #fff;
   --color-accent: #D3C6AB;
   --color-neutral-beige: #EFE3CB;
@@ -13,6 +13,7 @@
 
 html {
   font-family: var(--font-primary);
+  background-color: #f0f0f0;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -115,24 +116,12 @@ select {
   bottom: 0;
 }
 
+.main-nav {
+  background-color: var(--color-secondary-light);
+}
+
 .top-banner {
   position: relative;
-}
-
-.top-banner-container {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
-  border-radius: 5px;
-  padding: 2px 16px;
-  position: absolute;
-  background-color: var(--color-secondary-light);
-  width: 26%;
-  top: 60px;
-  left: 40px;
-}
-
-.top-banner-container:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
 .basic-card {
@@ -152,16 +141,40 @@ select {
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
 }
 
-.image-card {
-  border-radius: 20px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
-  transition: 0.3s;
-  margin-right: 1em;
-  display: inline-block;
+.cta-banner {
+  background-color: var(--color-accent);
 }
 
-.image-card:hover {
-  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+.cta-banner-container h2 {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 10px #000;
+}
+
+.cta-banner-container p {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 8px #000;
+}
+
+.top-banner-container h2 {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 10px #000;
+}
+
+.top-banner-container p {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 8px #000;
+}
+
+.image-card h1 {
+  color: var(--color-secondary-light);
+}
+
+.image-card p {
+  color: #000;
+}
+
+.image-card-container {
+  background-color: var(--color-accent);
 }
 
 .container {
@@ -208,14 +221,6 @@ select {
   color: var(--color-neutral-dark);
 }
 
-.shadow {
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.2);
-}
-
-footer {
-  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.2);
-}
-
 .footer-list a i{
   text-align: center;
 }
@@ -225,7 +230,7 @@ footer {
 }
 
 .section {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-accent);
 }
 
 .section h2 {
@@ -233,7 +238,7 @@ footer {
 }
 
 .section p {
-  color: var(--color-secondary-light);
+  color: var(--color-secondary);
 }
 
 .subnav-content a {

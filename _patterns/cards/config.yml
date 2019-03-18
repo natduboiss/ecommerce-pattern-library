@@ -1,8 +1,15 @@
 patterns:
   basic-card:
+    fields:
+      - name: heading
+        type: string
+        example: "Explore our gardens!"
+      - name: text
+        type: string
+        example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
     title: "Basic Card"
     description: |
-      This is the basic card that should be used only if no image is needed to be attached with the card.
+      This basic card is only to be used on top of a banner. If you want a card sitting on top of your banner.
   call-to-action-banner:
     fields:
       - name: heading
@@ -13,11 +20,21 @@ patterns:
         example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
       - name: image
         type: string
-        example: cta-banner.svg
+        example: cta-banner1.svg
     title: "Call to Action Banner"
     description: |
-      This banner should be used as a sectional banner, but only if you need to direct the user to another page you would use this banner.
+      This banner should be used as a sectional banner or a top of the page banner, but only if you need to direct the user to another page you would use this banner.
   image-card:
+    fields:
+      - name: heading
+        type: string
+        example: "Zebra Succulent"
+      - name: text
+        type: string
+        example: "Smallest boxed succulent to make this item a piece of decor. Called the zebra succulent because of it's unique pattern on the leaves."
+      - name: image
+        type: string
+        example: smallgarden4.jpg
     title: "Image Card"
     description: |
       This type of card is to be used to showcase products and direct the users to the shop page.
@@ -34,8 +51,18 @@ patterns:
   sectional-banner:
     title: "Sectional Banner"
     description: |
-      This is another kind of sectional banner, however this should only be used if you don't need to direct a user to another page.
+      This sectional banner is only to be used when no action is required. Nothing on this banner should be changed. You can add this banner on either the home page or products page.
   top-page-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Learn more about us"
+      - name: text
+        type: string
+        example: "Want to know what greengardens is all about? Discover more about us and our amazing plants!"
+      - name: image
+        type: string
+        example: cta-banner2.svg
     title: "Top Page Banner"
     description: |
-      This banner is to be used only at the top of the page. This can be where you have promotions.
+      This is another variation of a call-to-action banner.

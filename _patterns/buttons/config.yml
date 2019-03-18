@@ -16,7 +16,22 @@ patterns:
       This is the basic button that should be used only use in front of a light background.
     width: "12em"
   ghost:
+    fields:
+      - name: text
+        type: string
+        example: "See collection!"
+      - name: url
+        type: url
+        example: "/products/"
     title: "Ghost"
     description: |
-      the ghost button is only to be placed when on top of a banner. So we can showcase the image through the button.
+      The ghost button is only to be placed when on top of a banner. So we can showcase the image of the banner through the button.
     background: "--color-secondary"
+  light:
+    fields:
+      - name: text
+        type: string
+        example: "See collection!"
+      - name: url
+        type: url
+        example: "/products/"

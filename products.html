@@ -3,12 +3,14 @@ layout: default
 highlight_nav: shop
 ---
 
-{% pattern cards/call-to-action-banner heading="Learn more about us!" text="If you want to know more about us and about our plants come learn what we're all about." image="top-banner.svg" %}
+{% pattern cards/top-page-banner heading="Learn more about us" text="Want to know what greengardens is all about? Discover more about us and our amazing plants!" image="cta-banner2.svg" %}
 
 <div class="grid grid-middle gutter-1-4">
   {% for product in site.products %}
-  <div class="unit xs-1 s-1 m-1-2 island-1-4">
+  <div class="unit xs-1 s-1 m-1-2 island">
     {% pattern cards/product-card data=product %}
   </div>
   {% endfor %}
 </div>
+
+{% pattern cards/sectional-banner %}
