@@ -5,4 +5,5 @@ description: |
 non_conflict: false
 image: "/images/products/originalgarden1.jpg"
 price: 50
+category: "Original Gardens"
 ---

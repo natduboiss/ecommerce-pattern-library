@@ -5,4 +5,5 @@ description: |
 non_conflict: false
 image: "/images/products/smallgarden4.jpg"
 price: 20
+category: "Small Gardens"
 ---

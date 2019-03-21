@@ -5,4 +5,5 @@ description: |
 non_conflict: false
 image: "/images/products/deluxegarden1.jpg"
 price: 100
+category: "Small Gardens"
 ---
