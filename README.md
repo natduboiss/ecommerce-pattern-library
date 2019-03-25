@@ -21,3 +21,8 @@ The pattern library is a Jekyll & Patternbot based application that requires a r
 ## Copyright Notice
 
 Copyright © 2019 GreenGardens. All rights reserves.
+
+## Collaborators
+
+- [@natduboiss](https://github.com/natduboiss)
+- [@migr0001](https://github.com/migr0001)
