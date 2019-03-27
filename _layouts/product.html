@@ -9,8 +9,12 @@ layout: default
       <p>{{page.description}}</p>
     </div>
 
-    <div>
+    <div class="push">
       <img src="{{page.image}}" class="img-flex max-length" alt="">
+    </div>
+
+    <div class="unit-content-center-horizontal">
+      {% pattern buttons/basic text="Purchase" url="/products/" %}
     </div>
 
   </div>
