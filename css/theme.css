@@ -37,59 +37,6 @@ strong, b {
   font-weight: bold;
 }
 
-input:focus {
-  border-color: var(--color-primary-light);
-}
-
-select:focus {
-  border-color: var(--color-primary-light);
-}
-
-input {
-  border-color: var(--color-accent);
-}
-
-select {
-  border-color: var(--color-accent);
-}
-
-a {
-  text-decoration: none;
-  color: var(--color-primary);
-}
-
-#name {
-  width: 40%;
-}
-
-#email {
-  width: 40%;
-}
-
-#address {
-  width: 40%;
-}
-
-#city {
-  width: 40%;
-}
-
-#tel {
-  width: 40%;
-}
-
-#postal {
-  width: 40%;
-}
-
-#date {
-  width: 40%;
-}
-
-select {
-  width: 40%;
-}
-
 .error-message {
   display: block;
   background-color: #fee;

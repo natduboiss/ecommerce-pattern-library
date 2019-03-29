@@ -3,15 +3,23 @@ description: |
   Forms should be used when purchasing an item and information is required for the purchase.
 
 patterns:
-  field-help:
-    title: "Field Help"
+  confirmation:
+    title: "Confirmation"
     description: |
-      This field should to all the required fields. If a required field is missed an alert will appear.
+      This field is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct. Only with forms.
   input:
     title: "Input"
     description: |
       These fields are all the information needed to be filled up for a purchase.
-  select:
-    title: "Select"
+  provinces:
+    title: "Provinces"
     description: |
-      Only use this field for items that can have options for the user to easily select.
+      Only use this field for an easy way to put in your Province in a form.
+  phone:
+    title: "Phone"
+    description: |
+      These fields are to input your phone number and email in the form.
+  textarea:
+    title: "Text Area"
+    descriptions: |
+      This field is only the be used with a form to add a message attached with the gift.
