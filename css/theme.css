@@ -37,11 +37,9 @@ strong, b {
   font-weight: bold;
 }
 
-.error-message {
-  display: block;
-  background-color: #fee;
-  color: #c33;
-  border-color: #f33;
+a {
+  text-decoration: none;
+  color: var(--color-primary);
 }
 
 .hover-box {
