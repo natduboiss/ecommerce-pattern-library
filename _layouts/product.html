@@ -1,7 +1,21 @@
 ---
 layout: default
 ---
+<div class="grid">
+  <div class="unit island pad-t-2 push-1-2 max-length">
 
-<h1>{{page.name}}</h1>
-<p>{{page.description}}</p>
-<img src="{{page.image}}" alt="">
+    <div>
+      <h1 class="push-1-2">{{page.name}}</h1>
+      <p>{{page.description}}</p>
+    </div>
+
+    <div class="push">
+      <img src="{{page.image}}" class="img-flex max-length" alt="">
+    </div>
+
+    <div class="unit-content-center-horizontal">
+      {% pattern buttons/basic text="Purchase" url="/products/" %}
+    </div>
+
+  </div>
+</div>
