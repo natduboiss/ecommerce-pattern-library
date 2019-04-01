@@ -4,10 +4,18 @@ description: |
 
 patterns:
   confirmation:
+    fields:
+      - name: details
+      - type: string
+      - example: "I Agree with the information above"
     title: "Confirmation"
     description: |
       This field is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct. Only with forms.
   input:
+    fields:
+      - name: title
+      - type: string
+      - example: "Name"
     title: "Input"
     description: |
       These fields are all the information needed to be filled up for a purchase.
@@ -16,10 +24,26 @@ patterns:
     description: |
       Only use this field for an easy way to put in your Province in a form.
   phone:
+    fields:
+      - name: title
+      - type: string
+      - example: "Phone"
     title: "Phone"
     description: |
-      These fields are to input your phone number and email in the form.
+      This input is to be used only for phone numbers.
   textarea:
+    fields:
+      - name: title
+      - type: string
+      - example: "Write a message"
     title: "Text Area"
     description: |
       This field is only the be used with a form to add a message attached with the gift.
+  email:
+    title: "Email"
+    fields:
+      - name: title
+      - type: string
+      - email: "Email"
+    description: |
+      This input is to be used only for emails.
