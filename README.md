@@ -24,5 +24,5 @@ Copyright © 2019 GreenGardens. All rights reserves.
 
 ## Collaborators
 
-- [@natduboiss](https://github.com/natduboiss)
+- [@maadycpierce](https://github.com/maddycpierce)
 - [@migr0001](https://github.com/migr0001)
