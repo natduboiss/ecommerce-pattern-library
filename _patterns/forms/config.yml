@@ -5,17 +5,17 @@ description: |
 patterns:
   confirmation:
     fields:
-      - name: details
-      - type: string
-      - example: "I Agree with the information above"
+      - name: title
+        type: string
+        example: "I agree with the information above"
     title: "Confirmation"
     description: |
       This field is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct. Only with forms.
   input:
     fields:
       - name: title
-      - type: string
-      - example: "Name"
+        type: string
+        example: "Name"
     title: "Input"
     description: |
       These fields are all the information needed to be filled up for a purchase.
@@ -26,16 +26,16 @@ patterns:
   phone:
     fields:
       - name: title
-      - type: string
-      - example: "Phone"
+        type: string
+        example: "Phone"
     title: "Phone"
     description: |
       This input is to be used only for phone numbers.
   textarea:
     fields:
       - name: title
-      - type: string
-      - example: "Write a message"
+        type: string
+        example: "Write a message"
     title: "Text Area"
     description: |
       This field is only the be used with a form to add a message attached with the gift.
@@ -43,7 +43,7 @@ patterns:
     title: "Email"
     fields:
       - name: title
-      - type: string
-      - email: "Email"
+        type: string
+        example: "Email"
     description: |
       This input is to be used only for emails.
