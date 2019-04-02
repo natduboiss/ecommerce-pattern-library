@@ -1,18 +1,59 @@
 ---
 layout: default
 ---
+<div class="grid">
+  <div class="unit [ xs-1 ]">
+    <h2>Contact Information</h2>
+    {% pattern forms/email title="Email" %}
+  </div>
 
-<h2>Contact Information</h2>
-{% pattern forms/phone %}
-
-<h2>Shipping Information</h2>
-{% pattern forms/input %} First name last name
-{% pattern forms/input %} Address City
-{% pattern forms/provinces %}
-{% pattern forms/input %} country postal code
-{% pattern forms/phone %}
-
-<h3>Subtotal: $50</h3>
-<h3>Free Shipping</h3>
-
-{% pattern buttons/basic text="Purchase!" url="/products/" %}
+  <div class="unit [ xs-1 ]">
+    <div class="grid">
+      <div class="unit [ xs-1 ]">
+        <h2>Shipping Information</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/input title="First Name" %}</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/input title="Last Name" %}</h2>
+      </div>
+      <div class="unit [ xs-1 ]">
+        <h2>{% pattern forms/input title="Address" %}</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/input title="City" %}</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/provinces %}</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/input title="Country" %}</h2>
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h2>{% pattern forms/input title="Postal Code" %}</h2>
+      </div>
+      <div class="unit [ xs-1 ]">
+        {% pattern forms/phone title="Phone Number" %}
+      </div>
+      <div class="unit [ xs-1 ]">
+        {% pattern forms/textarea title="Write a message" %}
+      </div>
+    </div>
+    <div class="grid">
+      <div class="unit [ xs-1 l-1-2 ]">
+        IMAGE
+      </div>
+      <div class="unit [ xs-1 l-1-2 ]">
+        <h3>Subtotal: $50</h3>
+        <h3>Free Shipping</h3>
+      </div>
+      <div class="unit [ xs-1 ]">
+        {% pattern forms/confirmation title="I agree with the information above" %}
+      </div>
+      <div class="unit [ xs-1 ]">
+        {% pattern buttons/basic text="Purchase!" url="/products/" %}
+      </div>
+    </div>
+  </div>
+</div>
