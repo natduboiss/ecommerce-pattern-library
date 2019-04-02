@@ -1,0 +1,18 @@
+---
+layout: default
+---
+
+<h2>Contact Information</h2>
+{% pattern forms/phone %}
+
+<h2>Shipping Information</h2>
+{% pattern forms/input %} First name last name
+{% pattern forms/input %} Address City
+{% pattern forms/provinces %}
+{% pattern forms/input %} country postal code
+{% pattern forms/phone %}
+
+<h3>Subtotal: $50</h3>
+<h3>Free Shipping</h3>
+
+{% pattern buttons/basic text="Purchase!" url="/products/" %}
