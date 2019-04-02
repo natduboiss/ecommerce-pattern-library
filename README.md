@@ -1,3 +1,5 @@
+#GreenGardens Pattern Library
+
 ## Installation
 
 The pattern library is a Jekyll & Patternbot based application, so it requires Ruby to be installed.
