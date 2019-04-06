@@ -3,9 +3,19 @@ layout: default
 ---
 <div class="grid gutter">
   <div class="pad-b unit [ xs-1 ]">
-    <h2 class="island-1-4 push-none pad-b-1-4">Contact Information</h2>
-    <div class="island-1-4">
-      {% pattern forms/email title="Email" %}
+    <div class="grid">
+      <div class="island-1-4 unit [ xs-1 ]">
+        <h2 class="push-none pad-b-1-8">Contact Information</h2>
+      </div>
+      <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        {% pattern forms/input text="First Name" %}
+      </div>
+      <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
+        {% pattern forms/input text="Last Name" %}
+      </div>
+      <div class="island-1-4 unit [ xs-1 ]">
+        {% pattern forms/email text="Email" %}
+      </div>
     </div>
   </div>
 
@@ -14,37 +24,31 @@ layout: default
       <div class="island-1-4 unit [ xs-1 ]">
         <h2 class="push-none pad-b-1-8">Shipping Information</h2>
       </div>
-      <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-        {% pattern forms/input text="First Name" %}
-      </div>
-      <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-        {% pattern forms/input title="Last Name" %}
-      </div>
       <div class="island-1-4 pad-b unit [ xs-1 ]">
-        {% pattern forms/input title="Address" %}
+        {% pattern forms/input text="Address" %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-        {% pattern forms/input title="City" %}
+        {% pattern forms/input text="City" %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
         {% pattern forms/provinces %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-        {% pattern forms/input title="Country" %}
+        {% pattern forms/input text="Country" %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 s-1 m-1-2 l-1-2 ]">
-        {% pattern forms/input title="Postal Code" %}
+        {% pattern forms/input text="Postal Code" %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 ]">
-        {% pattern forms/phone title="Phone Number" %}
+        {% pattern forms/phone text="Phone Number" %}
       </div>
       <div class="island-1-4 pad-b unit [ xs-1 ]">
-        {% pattern forms/textarea title="Write a message" %}
+        {% pattern forms/textarea text="Write a message" %}
       </div>
     </div>
     <div class="grid pad-t">
       <div class="island-1-4 pad-b unit [ xs-1 ]">
-        {% pattern forms/confirmation title="I agree with the information above" %}
+        {% pattern forms/confirmation text="I agree with the information above" %}
       </div>
     </div>
   </div>
