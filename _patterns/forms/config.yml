@@ -5,7 +5,7 @@ description: |
 patterns:
   confirmation:
     fields:
-      - name: title
+      - name: text
         type: string
         example: "I agree with the information above"
     title: "Confirmation"
@@ -13,7 +13,7 @@ patterns:
       This field is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct. Only with forms.
   input:
     fields:
-      - name: title
+      - name: text
         type: string
         example: "Name"
     title: "Input"
@@ -25,7 +25,7 @@ patterns:
       Only use this field for an easy way to put in your Province in a form.
   phone:
     fields:
-      - name: title
+      - name: text
         type: string
         example: "Phone"
     title: "Phone"
@@ -33,7 +33,7 @@ patterns:
       This input is to be used only for phone numbers.
   textarea:
     fields:
-      - name: title
+      - name: text
         type: string
         example: "Write a message"
     title: "Text Area"
@@ -42,7 +42,7 @@ patterns:
   email:
     title: "Email"
     fields:
-      - name: title
+      - name: text
         type: string
         example: "Email"
     description: |
