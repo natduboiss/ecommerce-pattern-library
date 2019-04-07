@@ -20,6 +20,52 @@ patterns:
     description: |
       These fields are all the information needed to be filled up for a purchase.
   provinces:
+    fields:
+      - name: text
+        type: string
+        example: "Provinces"
+      - name: option_1
+        type: string
+        example: "Select One"
+      - name: option_2
+        type: string
+        example: "Alberta"
+      - name: option_3
+        type: string
+        example: "British Columbia"
+      - name: option_4
+        type: string
+        example: "Manitoba"
+      - name: option_5
+        type: string
+        example: "New Brunswick"
+      - name: option_6
+        type: string
+        example: "Newfoundland & Labrador"
+      - name: option_7
+        type: string
+        example: "Northwest Territories"
+      - name: option_8
+        type: string
+        example: "Nova Scotia"
+      - name: option_9
+        type: string
+        example: "Nunavut"
+      - name: option_10
+        type: string
+        example: "Ontario"
+      - name: option_11
+        type: string
+        example: "Prince Edward Island"
+      - name: option_12
+        type: string
+        example: "Quebec"
+      - name: option_13
+        type: string
+        example: "Saskatchewan"
+      - name: option_14
+        type: string
+        example: "Yukon"
     title: "Provinces"
     description: |
       Only use this field for an easy way to put in your Province in a form.
