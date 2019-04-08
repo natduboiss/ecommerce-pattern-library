@@ -86,7 +86,7 @@ a {
 }
 
 .cta-banner {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary-light);
 }
 
 .cta-banner-container h2 {
@@ -118,7 +118,7 @@ a {
 }
 
 .image-card-container {
-  background-color: var(--color-accent);
+  background-color: var(--color-primary-light);
 }
 
 .container {
@@ -199,8 +199,16 @@ a {
   border-bottom: 2px solid var(--color-primary-light);
 }
 
-.section-card {
-  background-color: #f0f0f0;
+.form-container {
+  background-color: var(--color-neutral-beige);
+}
+
+.form-container h2 {
+  color: var(--color-primary);
+}
+
+label {
+  color: var(--color-secondary);
 }
 
 @media only screen and (min-width: 60em) {

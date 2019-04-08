@@ -20,7 +20,7 @@ patterns:
         example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
       - name: image
         type: string
-        example: cta-banner1.svg
+        example: home-banner.jpg
     title: "Call to Action Banner"
     description: |
       This banner should be used as a sectional banner or a top of the page banner, but only if you need to direct the user to another page you would use this banner.
@@ -62,7 +62,7 @@ patterns:
         example: "Want to know what greengardens is all about? Discover more about us and our amazing plants!"
       - name: image
         type: string
-        example: cta-banner2.svg
+        example: home-banner.jpg
     title: "Top Page Banner"
     description: |
       This is another variation of a call-to-action banner.

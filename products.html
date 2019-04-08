@@ -3,9 +3,13 @@ layout: default
 highlight_nav: shop
 ---
 
-{% pattern cards/top-page-banner heading="Learn more about us" text="Want to know what greengardens is all about? Discover more about us and our amazing plants!" image="cta-banner2.svg" %}
+{% pattern cards/top-page-banner heading="Learn more about us" text="Want to know what greengardens is all about? Discover more about us and our amazing plants!" image="home-banner.jpg" %}
 
-<h1 class="text-center">Small Gardens</h1>
+{% pattern sections/side-navigation %}
+<hr></hr>
+
+<h1 class="text-center pad-t-1-2 push-0 pad-b-1-2">Original Gardens</h1>
+<p class="text-center milli push-0 pad-b-1-4">These small gardens are the smallest we sell, sitting in a 4 by 5 box. Great pieces to add on desks or end tables, at great prices.</p>
 <div class="grid grid-middle gutter-1-4">
   {% for product in site.products %}
     {% if product.category == 'Small Gardens' %}
@@ -15,7 +19,8 @@ highlight_nav: shop
     {% endif %}
   {% endfor %}
 </div>
-<h1 class="text-center">Original Gardens</h1>
+<h1 class="text-center pad-t-1-2 push-0 pad-b-1-2">Premium Gardens</h1>
+<p class="text-center milli push-0 pad-b-1-4">Three beautiful succulents boxed perfectly in a 9 by 4 inch box. This piece would be great for any center piece for any occasion.</p>
 <div class="grid grid-middle gutter-1-4">
   {% for product in site.products %}
     {% if product.category == 'Original Gardens' %}
@@ -25,7 +30,8 @@ highlight_nav: shop
     {% endif %}
   {% endfor %}
 </div>
-<h1 class="text-center">Deluxe Gardens</h1>
+<h1 class="text-center pad-t-1-2 push-0 pad-b-1-2">Deluxe Gardens</h1>
+<p class="text-center milli push-0 pad-b-1-4">These deluxe gardens are the biggest boxed plants we sell. Coming in a 15 by 6 box. Boxed with a mixture of succulents.</p>
 <div class="grid grid-middle gutter-1-4">
   {% for product in site.products %}
     {% if product.category == 'Deluxe Gardens' %}
