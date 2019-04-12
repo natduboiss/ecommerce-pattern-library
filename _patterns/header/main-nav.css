@@ -1,5 +1,5 @@
 .main-nav {
-  background-color: var(--color-secondary-light);
+  background-color: var(--color-primary);
 }
 
 .nav-container {
@@ -8,12 +8,11 @@
 
 .nav-container li {
   display: inline;
-  padding: 0 1em;
-  font-family: "Cabin", sans-serif;
+  padding: 0 .2em
 }
 
 .nav-container li a:hover {
-  color: var(--color-neutral-dark);
+  border-bottom: 2px solid var(--color-accent);
 }
 
 @media only screen and (min-width: 60em) {
@@ -21,4 +20,5 @@
   .nav-container {
     text-align: right;
   }
+
 }

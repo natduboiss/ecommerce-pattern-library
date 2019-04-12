@@ -1,11 +1,7 @@
-.footer {
-  background-color: var(--color-secondary-light);
+.button-left {
+  padding-right: .25em;
 }
 
-.footer-list a i{
-  text-align: center;
-}
-
-.footer i {
-  color: var(--color-neutral-dark);
+.button-right {
+  padding-left: .25em;
 }

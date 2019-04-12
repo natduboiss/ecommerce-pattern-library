@@ -12,9 +12,13 @@
 }
 
 .subnav-content a {
-  margin-right: 1em;
+  margin-right: 2em;
 }
 
 .subnav-content a:hover {
-  border-bottom: 2px solid var(--color-primary-light);
+  border-bottom: 2px solid var(--color-accent);
+}
+
+.section-container h4 {
+  color: var(--color-accent);
 }

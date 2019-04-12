@@ -39,7 +39,7 @@
 }
 
 .cta-banner {
-  background-color: var(--color-primary-light);
+  background-color: var(--color-primary);
 }
 
 .cta-banner-container h2 {
@@ -62,26 +62,30 @@
   text-shadow: 0 0 8px #000;
 }
 
+.image-card {
+  background-color: var(--color-primary);
+}
+
 .image-card h1 {
-  color: var(--color-secondary-light);
+  color: var(--color-accent);
 }
 
 .image-card p {
-  color: #000;
+  color: var(--color-secondary);
 }
 
 .image-card-container {
+  background-color: var(--color-primary);
+}
+
+.sectional-banner {
   background-color: var(--color-primary-light);
 }
 
-.section-banner {
-  background-color: var(--color-accent);
+.sectional-banner h2 {
+  color: var(--color-accent);
 }
 
-.section-banner h2 {
-  color: var(--color-secondary-light);
-}
-
-.section-banner p {
+.sectional-banner p {
   color: var(--color-secondary);
 }

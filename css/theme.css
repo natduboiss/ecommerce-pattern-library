@@ -1,21 +1,21 @@
 :root {
-  --color-primary: #D3C6AB;
-  --color-primary-light: #A8AD97;
-  --color-secondary: #000;
+  --color-primary: #ece8d9;
+  --color-primary-light: #fffdf6;
+  --color-secondary: #1c3e38;
   --color-secondary-light: #fff;
-  --color-accent: #616553;
-  --color-neutral-beige: #EFE3CB;
-  --color-neutral-dark: #A39886;
+  --color-accent: #d08158;
+  --color-main-button: #355f57;
+  --color-hover: #93b4a3;
 
   --font-primary: "Raleway", sans-serif;
 }
 
 html {
   font-family: var(--font-primary);
+  background-color: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #616553;
   font-family: "Raleway", sans-serif;
 }
 
@@ -37,7 +37,7 @@ strong, b {
 
 a {
   text-decoration: none;
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 .img-flex {
