@@ -20,3 +20,6 @@ patterns:
       - name: title
         type: string
         example: "Original Gardens"
+      - name: text
+        type: string
+        example: "These are our small gardens"

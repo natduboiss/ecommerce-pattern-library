@@ -22,3 +22,7 @@
 .section-container h4 {
   color: var(--color-accent);
 }
+
+fieldset {
+  border: none;
+}

@@ -89,3 +89,7 @@
 .sectional-banner p {
   color: var(--color-secondary);
 }
+
+.product-title {
+  color: var(--color-secondary);
+}

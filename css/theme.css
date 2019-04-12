@@ -12,7 +12,6 @@
 
 html {
   font-family: var(--font-primary);
-  background-color: var(--color-primary);
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -46,4 +45,8 @@ a {
 
 .textlink {
   color: var(--color-secondary-light);
+}
+
+.section-container {
+  var(--color-primary-light);
 }
