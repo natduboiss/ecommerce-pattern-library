@@ -1,0 +1,11 @@
+.form-container {
+  background-color: var(--color-neutral-beige);
+}
+
+.form-container h2 {
+  color: var(--color-primary);
+}
+
+label {
+  color: var(--color-secondary);
+}

@@ -1,0 +1,87 @@
+.hover-box {
+  color: var(--color-secondary-light);
+}
+
+.hover-box-caption {
+  bottom: -4em;
+  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.9);
+  transition: all .2s linear;
+}
+
+.hover-box-caption h2 {
+  color: var(--color-secondary-light);
+}
+
+.hover-box:hover .hover-box-caption {
+  bottom: 0;
+}
+
+.top-banner {
+  position: relative;
+}
+
+.basic-card {
+  background-color: var(--color-primary-light);
+  width: 40%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-radius: 5px;
+  padding: 2px 16px;
+}
+
+.basic-card h2 {
+  color: var(--color-secondary-light);
+}
+
+.basic-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cta-banner {
+  background-color: var(--color-primary-light);
+}
+
+.cta-banner-container h2 {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 10px #000;
+}
+
+.cta-banner-container p {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 8px #000;
+}
+
+.top-banner-container h2 {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 10px #000;
+}
+
+.top-banner-container p {
+  color: var(--color-secondary-light);
+  text-shadow: 0 0 8px #000;
+}
+
+.image-card h1 {
+  color: var(--color-secondary-light);
+}
+
+.image-card p {
+  color: #000;
+}
+
+.image-card-container {
+  background-color: var(--color-primary-light);
+}
+
+.section-banner {
+  background-color: var(--color-accent);
+}
+
+.section-banner h2 {
+  color: var(--color-secondary-light);
+}
+
+.section-banner p {
+  color: var(--color-secondary);
+}
