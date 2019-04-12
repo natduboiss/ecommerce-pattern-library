@@ -1,1 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 256 256" width="256" height="256"><defs><style>.cls-1{fill:#e2d4b1}.cls-2{fill:#92b792}.cls-3{fill:#7fa07f}.cls-4{fill:#6d8c6e}</style></defs><circle cx="128.48" cy="128.48" r="123.46" class="cls-1"/><path d="M44.54 219l83.94-166 83.94 166s-27.3 31.58-83.94 32.94S40.05 213.45 44.54 219z" class="cls-2"/><path d="M128.48 251.94l64.7-176.55L212.42 219s-25.02 30.21-83.94 32.94zm0 .06L63.78 75.39 44.54 219s25.02 30.25 83.94 33z" class="cls-3"/><path d="M44.54 219s28.37 33 83.94 33L95 160.68H52.36zm83.94 33s50.81.93 83.94-33l-3.81-28.46-73.23 42.58z" class="cls-3"/><path d="M170.81 244.5l58.24-102-8.2 67.85s-19.75 24.95-50.04 34.15zm-84.3 0l-58.23-102 8.19 67.85s19.75 24.95 50.04 34.15z" class="cls-4"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 256 256" style="enable-background:new 0 0 256 256;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E2D4B1;}
+	.st1{fill:#92B792;}
+	.st2{fill:#7FA07F;}
+	.st3{fill:#6D8C6E;}
+</style>
+<circle class="st0" cx="127.6" cy="128.7" r="125.7"/>
+<path class="st1" d="M42.2,220.8l85.4-169l85.4,169c0,0-27.8,32.2-85.4,33.5C95.8,254.9,65.1,242.9,42.2,220.8z"/>
+<path class="st2" d="M127.6,254.3l65.9-179.7L213,221C213,221,187.6,251.6,127.6,254.3z M127.6,254.4L61.7,74.6L42.2,220.8
+	C42.2,220.8,67.6,251.6,127.6,254.4z"/>
+<path class="st2" d="M42.2,220.8c0,0,28.9,33.5,85.4,33.5l-34.1-92.9H50.1L42.2,220.8z M127.6,254.4c0,0,51.7,0.9,85.4-33.6
+	l-4.1-28.9l-74.3,43.3L127.6,254.4z"/>
+<path class="st3" d="M170.7,246.8L230,142.9l-8.1,69.1C208.3,228.1,190.6,240.1,170.7,246.8z M84.8,246.8L25.6,142.9l8.5,69.1
+	C47.5,228,65.1,240,84.8,246.8z"/>
+</svg>
