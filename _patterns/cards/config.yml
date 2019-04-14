@@ -20,10 +20,10 @@ patterns:
         example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
       - name: image
         type: string
-        example: home-banner.jpg
+        example: call-to-action-banner1.jpg
     title: "Call to Action Banner"
     description: |
-      This banner should be used as a sectional banner or a top of the page banner, but only if you need to direct the user to another page you would use this banner.
+      This banner should only be used on the newsletter page of your website.
   image-card:
     fields:
       - name: heading
@@ -59,10 +59,24 @@ patterns:
         example: "Learn more about us"
       - name: text
         type: string
-        example: "Want to know what greengardens is all about? Discover more about us and our amazing plants!"
+        example: "Discover more about us and our amazing plants!"
       - name: image
         type: string
-        example: home-banner.jpg
+        example: top-banner.jpg
     title: "Top Page Banner"
     description: |
       This is another variation of a call-to-action banner.
+  home-banner:
+    fields:
+      - name: heading
+        type: string
+        example: "Explore our gardens!"
+      - name: text
+        type: string
+        example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one you love."
+      - name: image
+        type: string
+        example: home-banner1.jpg
+    title: "Home Banner"
+    description: |
+      This banner should only be used on at the top of your home page below the navigation.
