@@ -23,6 +23,6 @@
   color: var(--color-accent);
 }
 
-fieldset {
-  border: none;
+.section-container {
+  background-color: var(--color-primary);
 }

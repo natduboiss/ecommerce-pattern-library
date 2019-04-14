@@ -15,11 +15,3 @@ patterns:
     title: "Side Navigation"
     description: |
       This navigation is not to be used as the main navigation. It could be used as a secondary navigation for less popular or less important pages of the website.
-  divider:
-    fields:
-      - name: title
-        type: string
-        example: "Original Gardens"
-      - name: text
-        type: string
-        example: "These are our small gardens"

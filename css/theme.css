@@ -47,6 +47,6 @@ a {
   color: var(--color-secondary-light);
 }
 
-.section-container {
-  var(--color-primary-light);
+hr {
+  margin: 0;
 }

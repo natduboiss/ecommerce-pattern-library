@@ -1,9 +1,9 @@
 .form-container {
-  background-color: var(--color-neutral-beige);
+  background-color: var(--color-primary-light);
 }
 
 .form-container h2 {
-  color: var(--color-primary);
+  color: var(--color-secondary);
 }
 
 label {
