@@ -1,6 +1,6 @@
 title: "Buttons"
 description: |
-  Buttons should be used when an obvious action is required. Don't ever use the buttons, just to make it easier for the user to know the call-to-action on the screen.
+  Buttons should be used when an obvious action is required. Don't ever use the buttons just to make it easier for the user to know the call-to-action on the screen.
 
 patterns:
   basic:
@@ -25,7 +25,7 @@ patterns:
         example: "/products/"
     title: "Ghost"
     description: |
-      The ghost button is only to be placed when on top of a banner. So we can showcase the image of the banner through the button.
+      The ghost button is only to be placed when on top of a dark banner. So we can showcase the image of the banner through the button.
     background: "--color-secondary"
   light:
     fields:
@@ -35,3 +35,6 @@ patterns:
       - name: url
         type: url
         example: "/products/"
+    title: "Light"
+    description: |
+      Only use the light button in the footer. Used for promotions or to direct your user to another page.

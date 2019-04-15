@@ -10,7 +10,7 @@ patterns:
         example: "I agree with the information above"
     title: "Confirmation"
     description: |
-      This field is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct. Only with forms.
+      This pattern is a checkbox to be used with the button only at the end of the form to confirm all the information entered is correct.
   input:
     fields:
       - name: text
@@ -18,7 +18,7 @@ patterns:
         example: "Name"
     title: "Input"
     description: |
-      These fields are all the information needed to be filled up for a purchase.
+      This pattern is for when a form needs to be typed out with information.
   provinces:
     fields:
       - name: text
@@ -68,7 +68,7 @@ patterns:
         example: "Yukon"
     title: "Provinces"
     description: |
-      Only use this field for an easy way to put in your Province in a form.
+      Only use this pattern when there are multiple options to choose from.
   phone:
     fields:
       - name: text
@@ -76,7 +76,7 @@ patterns:
         example: "Phone"
     title: "Phone"
     description: |
-      This input is to be used only for phone numbers.
+      This pattern is to be used only for phone numbers.
   textarea:
     fields:
       - name: text
@@ -84,7 +84,7 @@ patterns:
         example: "Write a message"
     title: "Text Area"
     description: |
-      This field is only the be used with a form to add a message attached with the gift.
+      This pattern is only the be used when you need to fill out the box with a lot of information.
   email:
     title: "Email"
     fields:
@@ -92,4 +92,4 @@ patterns:
         type: string
         example: "Email"
     description: |
-      This input is to be used only for emails.
+      This pattern is to be used only for emails.

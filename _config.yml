@@ -1,14 +1,14 @@
 permalink: pretty
 theme: jekyll_patternbot
 patternbot:
-  title: "Pretty Little Gardens"
+  title: "GreenGardens"
   description: |
     A small gardening business, with a good variation of small plants to large deluxe gardens for anyone's home.
 
 patternbot:
   layouts:
     default: |
-      The default layout should be used for almost every page, it includes the website's primary header and footer.
+      The default layout should be used for every page, it includes the website's primary header and footer.
   font_url: "http://fonts.googleapis.com/css?family=Cabin:400,400i,700|Playfair+Display:400,700"
   colors:
     background: "--color-secondary-light"
@@ -17,13 +17,11 @@ patternbot:
       brand.logos: "--color-accent"
   rationales:
     typefaces.primary:  |
-      Playfair is the primary typeface that i selected because i wanted to have a unique and clean serif type for my primary typeface. Playfair will be used for all the body copy.
+      Raleway is the primary typeface that i selected because i wanted to have a unique and clean serif type for the typeface. Raleway will be used throughout the website.
     colors.primary: |
-      The primary colours that i picked represents the greenery that the site wants to sell.
-    typefaces.secondary: |
-      Cabin is the secondary typeface that i chose because i wanted a classic and clean sans-serif font for all the headings, buttons, banners, etc.
+      I wanted a neutral but earthy feel for the primary colour.
     colors.secondary:  |
-      The secondary colour is neutral black because this will highlight the text to make it stand out on the greens.
+      The secondary colour is a dark green-blue I wanted a colour for the type that could resemble the colours of succulents. And the white is for text that should be placed on darker backgrounds. Most of the text will be in these colours.
 
 collections:
   products:

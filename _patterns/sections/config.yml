@@ -1,6 +1,6 @@
 title: "Sections"
 description: |
-  A different type of navigation. Breadcrumbs through your website and the style of section used for bigger amounts of text.
+  Sections are made for all the big pieces of contents on your website.
 
 patterns:
   breadcrumbs:
@@ -10,8 +10,8 @@ patterns:
   sections:
     title: "Sections"
     description: |
-      These types of sections will be used only for sections that require more text. For less text you can look in the Cards section of this Pattern Library and find a banner if there's less text and a direction for the user to follow.
+      This pattern will be used only for sections that require more text. For less text you can look in the Cards category of this Pattern Library and find a banner if there's less text and a direction for the user to follow.
   side-navigation:
     title: "Side Navigation"
     description: |
-      This navigation is not to be used as the main navigation. It could be used as a secondary navigation for less popular or less important pages of the website.
+      This navigation is not to be used as the main navigation. It is made to be used as the navigation for the products page only. To easily filter through the different categories on the products page.

@@ -1,3 +1,7 @@
+title: "Cards"
+description: |
+  Cards are to be used as a section on a page or to direct the user to another page.
+
 patterns:
   basic-card:
     fields:
@@ -9,7 +13,7 @@ patterns:
         example: "Find a plant or garden that best suits your home and lifestyle. We garantee that you will find one that you love."
     title: "Basic Card"
     description: |
-      This basic card is only to be used on top of a banner. If you want a card sitting on top of your banner.
+      This basic card is only to be used on top of a banner. If you want a card sitting on top of your banner instead of having plain text on top.
   call-to-action-banner:
     fields:
       - name: heading
@@ -23,7 +27,7 @@ patterns:
         example: call-to-action-banner1.jpg
     title: "Call to Action Banner"
     description: |
-      This banner should only be used on the newsletter page of your website.
+      This banner should only be used on the top of your newsletter page below the main navigation and the promotion alert.
   image-card:
     fields:
       - name: heading
@@ -41,7 +45,7 @@ patterns:
   product-card:
     title: "Product Card"
     description: |
-      This card is to be used on the products page.
+      This card is to be used on the products page or newsletter page.
     fields:
       - name: data
         type: object
@@ -51,7 +55,7 @@ patterns:
   sectional-banner:
     title: "Sectional Banner"
     description: |
-      This sectional banner is only to be used when no action is required. Nothing on this banner should be changed. You can add this banner on either the home page or products page.
+      This sectional banner is only to be used when no action is required. Nothing on this banner should be changed. You can add this banner on any page as a section to a page.
   top-page-banner:
     fields:
       - name: heading
@@ -65,7 +69,7 @@ patterns:
         example: top-banner.jpg
     title: "Top Page Banner"
     description: |
-      This is another variation of a call-to-action banner.
+      This banner is to be used on top of the products page below the main navigation.
   home-banner:
     fields:
       - name: heading
@@ -79,4 +83,4 @@ patterns:
         example: home-banner1.jpg
     title: "Home Banner"
     description: |
-      This banner should only be used on at the top of your home page below the navigation.
+      This banner should only be used on at the top of your home page below the  main navigation.

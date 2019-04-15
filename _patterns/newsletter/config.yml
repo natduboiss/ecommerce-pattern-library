@@ -1,3 +1,7 @@
+title: "Newsletter"
+description: |
+  These patterns are only to be used on the newsletter page.
+
 patterns:
   promotion-alert:
     fields:
@@ -6,11 +10,11 @@ patterns:
         example: "Buy a premium garden and get one 50% off!"
     title: "Promotional Alert"
     description: |
-      Only to be put at the top of the newsletter page below the navigation.
+      Only to be put at the top of the newsletter page below the main navigation.
   pricing-table:
     title: "Pricing Table"
     description: |
-      Only to be used on the newsletter page to showcase variaties of prices.
+      Only to be used on the newsletter page to showcase variaties of prices for different categories.
   newsletter-signup:
     fields:
       - name: text
@@ -18,4 +22,4 @@ patterns:
         example: " "
     title: "Newsletter Sign up"
     description: |
-      To only be used one the newsletter page.
+      To only be used on the bottom of the newsletter page right before the footer.
