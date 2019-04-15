@@ -1,39 +1,55 @@
-<header class="main-nav pad-t-1-2 pad-b-1-2">
-  <div class="grid grid-bottom">
-    <div class="unit xs-1 s-1 m-1 l-1-4 logo island text-center">
-      <a href="/">
-        <img src="/images/largelogo1.svg" alt="greengardens">
-      </a>
+<body>
+  <ul class="skip-links">
+    <li>
+      <a href="#nav">Jump to nav</a>
+    </li>
+    <li>
+      <a href="#main">Jump to main</a>
+    </li>
+    <li>
+      <a href="#content">Jump to content</a>
+    </li>
+    <li>
+      <a href="#about">Jump to about</a>
+    </li>
+  </ul>
+  <header class="main-nav pad-t-1-2 pad-b-1-2">
+    <div class="grid grid-bottom">
+      <div class="unit xs-1 s-1 m-1 l-1-4 logo island text-center">
+        <a href="/">
+          <img src="/images/largelogo1.svg" alt="greengardens">
+        </a>
+      </div>
+      <div class="unit xs-1 s-1 m-1 l-3-4 pad-b-1-4">
+        <nav class="pad-b-1-2 tabindex="0" id="nav" role="navigation">
+          <ul class="nav-container text-upper list-group island push-0">
+            <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
+              <a class="icon-link giga" href="#">
+                <i class="icon i-32">
+                  <svg><use xlink:href="/images/icons.svg#search"></use></svg>
+                </i>
+                <span class="icon-label">Search</span>
+              </a>
+            </li>
+            <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
+              <a class="icon-link giga" href="/products">
+                <i class="icon i-32">
+                  <svg><use xlink:href="/images/icons.svg#about"></use></svg>
+                </i>
+                <span class="icon-label">Shop</span>
+              </a>
+            </li>
+            <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
+              <a class="icon-link giga" href="/checkout">
+                <i class="icon i-32">
+                  <svg><use xlink:href="/images/icons.svg#bag1"></use></svg>
+                </i>
+                <span class="icon-label">Bag</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
-    <div class="unit xs-1 s-1 m-1 l-3-4 pad-b-1-4">
-      <nav class="pad-b-1-2">
-        <ul class="nav-container text-upper list-group island push-0">
-          <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
-            <a class="icon-link giga" href="#">
-              <i class="icon i-32">
-                <svg><use xlink:href="/images/icons.svg#search"></use></svg>
-              </i>
-              <span class="icon-label">Search</span>
-            </a>
-          </li>
-          <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
-            <a class="icon-link giga" href="/products">
-              <i class="icon i-32">
-                <svg><use xlink:href="/images/icons.svg#about"></use></svg>
-              </i>
-              <span class="icon-label">Shop</span>
-            </a>
-          </li>
-          <li class="{% if page.highlight_nav == 'shop' %}current{% endif %}">
-            <a class="icon-link giga" href="/checkout">
-              <i class="icon i-32">
-                <svg><use xlink:href="/images/icons.svg#bag1"></use></svg>
-              </i>
-              <span class="icon-label">Bag</span>
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </div>
-</header>
+  </header>
+</body>
