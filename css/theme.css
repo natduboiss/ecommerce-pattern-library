@@ -5,7 +5,7 @@
   --color-secondary-light: #fff;
   --color-accent: #d08158;
   --color-main-button: #355f57;
-  --color-hover: #93b4a3;
+  --color-hover: #899B92;
 
   --font-primary: "Raleway", sans-serif;
 }
@@ -49,4 +49,8 @@ a {
 
 hr {
   margin: 0;
+}
+
+.section-card {
+  background-color: var(--color-primary-light);
 }

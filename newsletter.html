@@ -5,24 +5,19 @@ layout: default
 {% pattern cards/call-to-action-banner heading="Explore" text="Start exploring our gardens to find a plant that best suits you." image="call-to-action-banner1.jpg" %}
 
 <div class="grid">
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-b-2">
     {% pattern cards/image-card heading="Mixed Garden" text="Three beautiful succulents. A mix of three different plant. The Bliss, Original and Zebra succulent." image="originalgarden1.jpg" %}
   </div>
-  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2">
+  <div class="unit xs-1-2 s-1-2 m-1-2 l-1-2 pad-b-2">
     {% pattern cards/image-card heading="Zebra Garden" text="A three piece succulent set. All three plants are beautiful unique zebra succulents. Great for an indoor center piece." image="originalgarden2.jpg" %}
   </div>
 </div>
 
-<div class="price-container gutter-2">
-  <div class="grid">
-    <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      {% pattern newsletter/pricing-table heading="Zebra Succulent" text="Smallest boxed succulent to make this item a piece of decor. Called the zebra succulent because of it's unique pattern on the leaves." image="smallgarden3.jpg" %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      {% pattern newsletter/pricing-table heading="Zebra Succulent" text="Smallest boxed succulent to make this item a piece of decor. Called the zebra succulent because of it's unique pattern on the leaves." image="smallgarden3.jpg" %}
-    </div>
-    <div class="unit xs-1 s-1 m-1-3 l-1-3">
-      {% pattern newsletter/pricing-table heading="Zebra Succulent" text="Smallest boxed succulent to make this item a piece of decor. Called the zebra succulent because of it's unique pattern on the leaves." image="smallgarden3.jpg" %}
-    </div>
-  </div>
+<hr>
+
+<div class="island-2 price-card">
+  <h3 class="zetta text-center">Collection</h3>
+  {% pattern newsletter/pricing-table %}
 </div>
+
+{% pattern newsletter/newsletter-signup %}

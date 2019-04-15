@@ -8,16 +8,14 @@ patterns:
     description: |
       Only to be put at the top of the newsletter page below the navigation.
   pricing-table:
-    fields:
-      - name: heading
-        type: string
-        example: "Zebra Succulent"
-      - name: text
-        type: string
-        example: "Smallest boxed succulent to make this item a piece of decor. Called the zebra succulent because of it's unique pattern on the leaves."
-      - name: image
-        type: string
-        example: smallgarden3.jpg
     title: "Pricing Table"
     description: |
       Only to be used on the newsletter page to showcase variaties of prices.
+  newsletter-signup:
+    fields:
+      - name: text
+        type: string
+        example: " "
+    title: "Newsletter Sign up"
+    description: |
+      To only be used one the newsletter page.
