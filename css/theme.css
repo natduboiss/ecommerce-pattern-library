@@ -54,3 +54,7 @@ hr {
 .section-card {
   background-color: var(--color-primary-light);
 }
+
+.privacy a {
+  color: var(--color-accent);
+}

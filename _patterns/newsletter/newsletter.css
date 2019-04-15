@@ -36,11 +36,11 @@ body {
   color: var(--color-secondary);
 }
 
-td .icon {
+.price-table td .icon {
   color: var(--color-secondary-light);
 }
 
-tr {
+.price-table tr {
   color: var(--color-secondary-light);
 }
 
