@@ -1,13 +1,12 @@
 :root {
-  --color-primary: #ece8d9;
-  --color-primary-light: #fffdf6;
-  --color-secondary: #1c3e38;
+  --color-primary: #213951;
+  --color-secondary: #d6e1e7;
   --color-secondary-light: #fff;
-  --color-accent: #d08158;
-  --color-main-button: #355f57;
-  --color-price-card: #899B92;
+  --color-accent: #98aab4;
+  --color-accent-two: #cf816a;
+  --color-forms: #e5d4c2;
 
-  --font-primary: "Raleway", sans-serif;
+  --font-primary: "Futura PT", sans-serif;
 }
 
 html {
@@ -15,11 +14,11 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Futura PT", sans-serif;
 }
 
 p {
-  font-family: "Raleway", sans-serif;
+  font-family: "Futura PT", sans-serif;
 }
 
 ul, ol, dl {

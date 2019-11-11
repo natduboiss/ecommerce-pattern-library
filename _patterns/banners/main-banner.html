@@ -1,0 +1,16 @@
+<section role="banner">
+  <div class="banner-wrapper">
+    <img class="img img-flex" src="/images/main-banner.jpg" alt="" role="presentation">
+    <div class="gutter-2 transparent-background pad-t">
+      <div class="grid grid-middle wrapper pad-t">
+        <div class="unit xs-1 s-1 text-white">
+          <h2 class="push-1-2">{{include.heading}}</h2>
+          <p>{{include.text}}</p>
+          {% if include.button_url %}
+            {% pattern buttons/basic url=include.button_url text=include.button_text %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
